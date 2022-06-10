@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F9F4E8;
+    color: black;
+}
+.one {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.sec1, .sec2, .sec3 {
+    display: flex;
+    gap: 1vw;
+}
+ .join {
+    border: none;
+    border-radius: 5px;
+    background-color: #4977EA;
+    color: white;
+    padding: 15px;
+}
+.btn {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+   padding-right: 10px;
+   padding-left: 10px;
+   padding-top: 2px;
+   padding-bottom: 2px;
+   border: none;
+   color: white;
+   background-color: #EA945C;
+   height: 4vh;
+}
+.rocket {
+    height: 4vh;
+}
+.sec3 button {
+    margin-top: -12px;
+}
+.two {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 120px;
+}
+.two h1 {
+    padding-bottom: 20px;
+}
+.input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    padding-right: 25px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.tick {
+    display: flex;
+    gap: 15px;
+}
+.tick p {
+    margin-top: 4px;
+}

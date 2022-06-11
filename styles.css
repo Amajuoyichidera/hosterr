@@ -11,6 +11,7 @@ body {
     scroll-behavior: smooth;
     font-family: 'Lato', sans-serif;
     font-family: 'Playfair Display', serif;
+    cursor: pointer;
 }
 .one {
     padding-top: 30px;
@@ -90,4 +91,72 @@ h1 {
 }
 span {
     font-weight: bold;
+}
+button {
+    transition: 0.5s;
+}
+button:hover {
+    transform: scale(1.1);
+    transition: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 15px;
+        
+    }
+    .btn {
+        height: 5vh;
+        font-size: 2vh;
+    }
+    .sec2, .sec3 {
+        display: none;
+    }
+    .two {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    form {
+        display: flex;
+        padding-top: 5px;
+        padding-bottom: 40px;
+        flex-direction: column;
+        justify-content: center;
+        margin: 3px;
+    }
+    .three {
+        display: flex;
+        flex-direction: column;
+        gap: 8vw;
+    }
+    .girl {
+        height: 40vh;
+        margin-top: -50px;
+        margin-bottom: -20px;
+    }
+    .sec1 {
+        margin-left: -10px;
+        gap: 3vw;
+    }
+    h1 {
+        padding-top: 60px;
+    }
+    .input {
+        margin-right: 0.1vw;
+    }
+    .join {
+        margin-right: 0.1vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        margin-left: 10px;
+    }
+    form {
+        margin-right: 10px;
+    }
+    .btn {
+        height: 5vh;
+    }
 }
